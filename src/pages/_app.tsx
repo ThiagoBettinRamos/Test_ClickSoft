@@ -1,14 +1,15 @@
 import React from 'react';
 import type { AppProps } from 'next/app';
-import { GlobalStyle } from '../styles/globalStyles';
+import { SearchProvider } from '../contexts/SearchContext';
+import GlobalStyles from '../styles/GlobalStyles';
 
-function MyApp({ Component, pageProps }: AppProps) {
+const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
-    <>
-      <GlobalStyle />
+    <SearchProvider>
+      <GlobalStyles />
       <Component {...pageProps} />
-    </>
+    </SearchProvider>
   );
-}
+};
 
 export default MyApp;

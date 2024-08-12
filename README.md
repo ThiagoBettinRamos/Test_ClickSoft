@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GitHub User Profile Viewer
 
-## Getting Started
+Este projeto é um aplicativo web construído com React e Next.js que permite visualizar perfis de usuários do GitHub, incluindo seus repositórios públicos. A interface do usuário foi estilizada utilizando `styled-components` e foi projetada para ser responsiva e fácil de usar.
 
-First, run the development server:
+## 🚀 Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-   **Busca de Usuário GitHub:** Digite o nome de usuário do GitHub e veja informações detalhadas, incluindo a foto do perfil, nome, biografia e repositórios públicos.
+-   **Visualização de Repositórios:** Cada repositório listado mostra seu nome, descrição (se disponível), um link para o repositório no GitHub, e um link para uma demo se houver uma homepage configurada.
+-   **Histórico de Pesquisas:** Exibe os últimos usuários pesquisados para facilitar o acesso rápido.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🖥️ Tecnologias Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-   **React** - Biblioteca JavaScript para construção de interfaces de usuário.
+-   **Next.js** - Framework React para desenvolvimento de aplicações web com renderização do lado do servidor (SSR).
+-   **Styled-components** - Utilizado para escrever CSS dentro do JavaScript.
+-   **TypeScript** - Linguagem que adiciona tipagem estática ao JavaScript, ajudando a evitar erros e melhorando a experiência de desenvolvimento.
+-   **GitHub API** - Utilizada para buscar dados de usuários e repositórios.
